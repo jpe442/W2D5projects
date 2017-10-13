@@ -1,0 +1,44 @@
+div {
+}
+
+#first-div {
+  background-color: #39cccc;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 200px;
+  border: 1px solid black;
+}
+
+#second-div {
+  background-color: #7fdbff;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 200px;
+  border: 1px solid black;
+}
+
+#third_div {
+  background-color: #7fdbff;
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 200px;
+  margin: 200px;
+  border: 1px solid black;
+
+}
+
+#fourth_div {
+  width: 500px;
+}
+p {
+  background-color: #7fdbff;
+}
+
+.image-1-container {
+  height: 600px;
+  width: 200px;
+  background-color: blue;
+}
