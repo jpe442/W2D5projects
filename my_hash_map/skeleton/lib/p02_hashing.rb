@@ -9,6 +9,11 @@ end
 
 class String
   def hash
+    total = 0
+    self.chars.each_with_index do |ch, idx|
+      total -= ch.ord * idx
+    end
+    total.hash
   end
 end
 
